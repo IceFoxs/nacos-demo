@@ -9,7 +9,7 @@ import com.alibaba.nacos.api.exception.NacosException;
 import java.util.Properties;
 import java.util.concurrent.Executor;
 
-public class Test {
+public class NacosConfigTest {
     public static void main(String[] args) throws NacosException, InterruptedException {
         String serverAddr = "localhost";
         String dataId = "example.properties";
